@@ -185,9 +185,3 @@ public class BeatBox {
 	} // close inner class
 
 } // close class
-
-        
-             
-          
-          
-          
