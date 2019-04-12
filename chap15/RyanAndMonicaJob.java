@@ -23,7 +23,7 @@ public class RyanAndMonicaJob implements Runnable {
 	}
 
 	//  to demonstrate the "overdrawn" error remove the "synchronized" modifier
-	private synchronized void makeWithdrawal(int amount) {
+	private void makeWithdrawal(int amount) {
 		if (account.getBalance() >= amount) {
 			System.out.println(Thread.currentThread().getName() + " is about to withdrawal");
 			try {
